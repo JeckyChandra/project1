@@ -1,13 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Not Found 404</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Not Found The Page</h1>
-    <h1>Error 404</h1>
+    <div class="container-fluid" style="background-color: rgb(62, 174, 255); padding: 15px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <p style="color: white; word-wrap: normal; margin-top: 6px; font-size: large;">Toko Online</p>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                            aria-describedby="search-addon" />
+                        <button type="button" class="btn btn-outline-primary" onclick='search()'
+                            style="color: white;">search</button>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href=".." class="nav-link" style="color: white;">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row notfound align-items-center justify-content-center">
+            <div class="col ">
+                <p class="h1 text-center">404</p>
+                <p class="h4 text-center">Page Not Found</p>
+                <p class="text-center">Sepertinya Anda kesasar! Coba kembali ke halaman depan.</p>
+                <p class="text-center"><a href="/">Kembali Ke Halaman Depan</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
